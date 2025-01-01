@@ -25,8 +25,8 @@ Backend Environment Setup
 
 Step 1: Create a Virtual Environment (Optional but Recommended)
 First, create a Python virtual environment to keep your dependencies isolated from your system’s global Python installation.
-```bash
-Code kopieren
+```
+bash
 python3 -m venv venv
 ```
 Step 2: Install Dependencies
