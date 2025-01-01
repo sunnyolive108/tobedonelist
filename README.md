@@ -17,14 +17,14 @@ Here is the recommended project structure:
 Explanation:
 
 app.py: The main FastAPI application where routes are defined.  
-task_manager.py: Contains the logic for managing tasks, including adding, removing, and updating tasks.
-models.py: Defines the data models for the application (e.g., Task, User, etc.), typically using Pydantic for validation and SQLAlchemy for ORM.
-api.py: The file containing the API routes and business logic.
-requirements.txt: A file that lists all required Python packages for the backend to run.
+task_manager.py: Contains the logic for managing tasks, including adding, removing, and updating tasks.  
+models.py: Defines the data models for the application (e.g., Task, User, etc.), typically using Pydantic for validation and SQLAlchemy for ORM.  
+api.py: The file containing the API routes and business logic.  
+requirements.txt: A file that lists all required Python packages for the backend to run.  
 
 Backend Environment Setup
 
-Step 1: Create a Virtual Environment (Optional but Recommended)
+Step 1: Create a Virtual Environment (Optional but Recommended)  
 First, create a Python virtual environment to keep your dependencies isolated from your system’s global Python installation.
 ```bash
 python3 -m venv venv
