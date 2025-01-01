@@ -15,6 +15,7 @@ Here is the recommended project structure:
         └── requirements.txt  # List of dependencies
 ```
 Explanation:
+
 app.py: The main FastAPI application where routes are defined.
 task_manager.py: Contains the logic for managing tasks, including adding, removing, and updating tasks.
 models.py: Defines the data models for the application (e.g., Task, User, etc.), typically using Pydantic for validation and SQLAlchemy for ORM.
