@@ -34,7 +34,6 @@ Step 2:
 Install Dependencies  
 The requirements.txt file contains all the necessary Python packages for the backend. To install the dependencies, run the following command in your terminal:
 ```bash
-Code kopieren
 pip install -r requirements.txt
 ```
 This will install:
@@ -47,7 +46,6 @@ APScheduler: A library to schedule tasks (e.g., reminders, notifications).
 Step 3: Run the FastAPI Application  
 After installing the dependencies, you can run the FastAPI app using Uvicorn.  
 ```bash
-Code kopieren
 uvicorn src.backend.app:app --reload
 ```
 This will start the server on http://localhost:8000.  
