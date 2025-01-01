@@ -5,6 +5,7 @@ A FastAPI-based backend for task management, with support for scheduling reminde
 Project Structure
 Here is the recommended project structure:
 
+´´´
 /src
     /backend
         ├── app.py           # Main FastAPI app
@@ -12,6 +13,7 @@ Here is the recommended project structure:
         ├── models.py        # Data models (task, user, etc.)
         ├── api.py           # API endpoints
         └── requirements.txt  # List of dependencies
+´´´
 
 
 Explanation:
