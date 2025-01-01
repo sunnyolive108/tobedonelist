@@ -5,8 +5,7 @@ A FastAPI-based backend for task management, with support for scheduling reminde
 Project Structure
 Here is the recommended project structure:
 
-´´bash
-
+´´´bash
 /src
     /backend
         ├── app.py           # Main FastAPI app
