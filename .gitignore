@@ -1,1 +1,5 @@
 tasks.json
+WebApp/frontend/
+WebApp/frontend/src/App.js
+WebApp/frontend/src/api.js
+WebApp/frontend/src/index.js
