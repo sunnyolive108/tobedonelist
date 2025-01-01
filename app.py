@@ -7,6 +7,7 @@ class TaskManager:
     def __init__(self, data_file="tasks.json"):
         script_dir = os.path.dirname(os.path.abspath(__file__))
         self.data_file = os.path.join(script_dir, data_file)
+        
         self.tasks = self.load_tasks()
 
     def load_tasks(self):
