@@ -1,5 +1,0 @@
-fastapi
-uvicorn
-pydantic
-sqlalchemy  # for database interaction
-apscheduler  # for scheduling reminders, notifications
